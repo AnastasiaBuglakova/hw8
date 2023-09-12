@@ -38,10 +38,10 @@ def calculate_dir_size():
                 if all(c_dir):
                     for item in folders:
                         if item[2] == name:
-                            print(f'was-{folders[i] =}, {folders[i][3] =}')
-                            file_size = item[3]
-                            folders[i][3] += file_size
-                            print(f'is -{folders[i] =}, {folders[i][3] =}')
+                            # print(f'was-{folders[i] =}, {folders[i][3] =}')
+                            # file_size = item[3]
+                            # folders[i][3] += file_size
+                            # print(f'is -{folders[i] =}, {folders[i][3] =}')
 
             # меняю в исходном словаре размер директории на полученный и присваиваю этой директории тип файла, чтобы ее
             # размер м б учитывать в родительских папках
